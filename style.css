@@ -1,0 +1,100 @@
+/* html {
+    height: 100% !important;
+} */
+
+body {
+    /* height: 100vh; */
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+
+
+
+.jumbotron {
+
+    padding-top: 4rem !important;
+    padding-bottom: 10px !important;
+
+    background-color: #f0f0ea9d;
+}
+
+
+h3 {
+    color: #ffffff;
+    margin-bottom: 30px !important;
+}
+
+#carouselExampleFade {
+    margin-bottom: 100px;
+}
+
+ img  {
+    height: 450px;
+    width: 300px !important;
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+a img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.carousel-item > img {
+    transform: none !important;
+}
+
+
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+
+
+.d-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#gallery {
+    margin-top: 100px;
+}
+
+.footer {
+    /* margin-top: 0px; */
+    background-color: #a9bdce;
+}
+
+
+.card-deck {
+    margin: 100px 0px;
+}
+
+.card > img {
+    height: 15rem;
+    width: auto !important;
+}
+
