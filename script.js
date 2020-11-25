@@ -3,4 +3,7 @@ $(function () {
     });
 
 
-const update = 
+const cardTitle = document.querySelector('card-title');
+function alert() {
+    alert(``)
+}
